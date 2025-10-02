@@ -1,0 +1,28 @@
+{
+  "name": "trading-api",
+  "version": "1.0.0",
+  "description": "Trading Data API - REST + WebSocket + Swagger",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --runInBand --detectOpenHandles"
+  },
+  "keywords": [],
+  "author": "Juan Manuel Rodríguez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "swagger-ui-express": "^4.6.3",
+    "ws": "^8.13.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.0.0",
+    "supertest": "^6.3.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
